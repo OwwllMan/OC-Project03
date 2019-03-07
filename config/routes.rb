@@ -1,3 +1,8 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  root 'home#index'
+
+
+  resources :reservations
+  get 'reservation/confirmation', to: 'reservations#show', as: :reserv_confirm
+  get '/reservation', to: 'reservations#index'
 end

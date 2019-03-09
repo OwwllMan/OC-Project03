@@ -15,7 +15,9 @@ html{
     text-rendering:optimizeLegibility;
 }
 
-
+.container_films{
+  display:flex;
+}
 
 /* ---------------- */
 /* REUSABLE */
@@ -197,15 +199,12 @@ h2{
 /* SECTION */
 /* ------------------ */
 
-section{
-    padding-top:40vh;
-}
 
 section p {
     padding-top:20px;
     margin-left:60px;
     font-size:20px;
-    color:#FFF;
+
 }
 
 /* ---------------- */
@@ -218,6 +217,8 @@ section p {
     background-size:cover;
     height:110vh;
     margin-top: -5vw;
+    padding-top:40vh;
+    color:#FFF;
 }
 
 /* ---------------- */
@@ -231,7 +232,8 @@ section p {
     clip-path: polygon( 0 0,100% 0, 100% 100%,0 calc(100% - 5vw));
     height:110vh;
     margin-top: -5vw;
-
+    padding-top:40vh;
+    color:#FFF;
 }
 
 /* ---------------- */
@@ -245,8 +247,18 @@ section p {
     clip-path: polygon( 0 0,100% 0, 100% 100%,0 calc(100% - 5vw));
     height:110vh;
     margin-top: -5vw;
+    padding-top:40vh;
+    color:#FFF;
 }
 
+
+.section-4{
+    background-color:white;
+    height:110vh;
+    margin-top: -5vw;
+    padding-top:20vh;
+    color:black;
+}
 /* ---------------- */
 /* ABOUT */
 /* ------------------ */
@@ -257,6 +269,8 @@ section p {
     background-size:cover;
     margin-top: -5vw;
     height:110vh;
+    padding-top:30vh;
+    color:#FFF;
 }
 
 .text-About{

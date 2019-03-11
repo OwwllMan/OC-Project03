@@ -15,9 +15,7 @@ html{
     text-rendering:optimizeLegibility;
 }
 
-.container_films{
-  display:flex;
-}
+
 
 /* ---------------- */
 /* REUSABLE */
@@ -73,6 +71,29 @@ html{
     background-size:cover;
     height:110vh;
     clip-path: polygon( 0 0,100% 0, 100% 100%,0 calc(100% - 5vw));
+}
+
+.headerother{
+    background-color:black !important;
+    background-position:center;
+    background-size:cover;
+    height:30vh;
+}
+
+.films-title{
+  color:black;
+  border-bottom:2px solid #ffd700;
+}
+
+.card{
+  border-radius:3px;
+  border:2px solid #ffd700;
+}
+
+.main_div{
+  padding-top:20vh;
+  height:280vh;
+  background-color:white;
 }
 
 header{

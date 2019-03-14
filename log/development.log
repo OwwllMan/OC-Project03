@@ -4863,3 +4863,819 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 60ms (Views: 58.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-03-11 14:56:07 +0100
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mathieu/.rvm/gems/ruby-2.5.3/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (361.0ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 444ms (Views: 437.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-11 14:56:55 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 60ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-11 14:59:07 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 48ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films" for 127.0.0.1 at 2019-03-11 14:59:18 +0100
+Processing by HomeController#films as HTML
+  Rendering home/films.html.erb within layouts/application
+  Rendered home/films.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 45ms (Views: 42.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films" for 127.0.0.1 at 2019-03-11 14:59:36 +0100
+Processing by HomeController#films as HTML
+  Rendering home/films.html.erb within layouts/application
+  Rendered home/films.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films" for 127.0.0.1 at 2019-03-11 14:59:48 +0100
+Processing by HomeController#films as HTML
+  Rendering home/films.html.erb within layouts/application
+  Rendered home/films.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 60ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films" for 127.0.0.1 at 2019-03-11 15:00:01 +0100
+Processing by HomeController#films as HTML
+  Rendering home/films.html.erb within layouts/application
+  Rendered home/films.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 32ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films" for 127.0.0.1 at 2019-03-11 15:04:46 +0100
+Processing by HomeController#films as HTML
+  Rendering home/films.html.erb within layouts/application
+  Rendered home/films.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 34ms (Views: 31.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-11 15:04:47 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 47ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films" for 127.0.0.1 at 2019-03-11 16:08:25 +0100
+Processing by HomeController#films as HTML
+  Rendering home/films.html.erb within layouts/application
+  Rendered home/films.html.erb within layouts/application (14.4ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 127ms (Views: 121.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pr%C3%A9inscription" for 127.0.0.1 at 2019-03-11 16:08:30 +0100
+Processing by HomeController#préinscription as HTML
+  Rendering home/préinscription.html.erb within layouts/application
+  Rendered home/préinscription.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 97ms (Views: 91.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pr%C3%A9inscription" for 127.0.0.1 at 2019-03-11 16:10:11 +0100
+Processing by HomeController#préinscription as HTML
+  Rendering home/préinscription.html.erb within layouts/application
+  Rendered home/préinscription.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 199ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "  height": expected ";", was ":100vh;"):
+     9:     <%= csrf_meta_tags %>
+    10:     <%= csp_meta_tag %>
+    11:     <%= favicon_link_tag asset_path('Favicon.png') %>
+    12:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    13:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    14:   </head>
+    15: 
+  
+app/assets/stylesheets/general/home.scss:85
+app/assets/stylesheets/application.scss:1
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3880928597941165892_70156409316300'
+Started GET "/pr%C3%A9inscription" for 127.0.0.1 at 2019-03-11 16:10:19 +0100
+Processing by HomeController#préinscription as HTML
+  Rendering home/préinscription.html.erb within layouts/application
+  Rendered home/préinscription.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 1322ms (Views: 1316.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/actualit%C3%A9" for 127.0.0.1 at 2019-03-11 16:15:30 +0100
+Processing by HomeController#actualité as HTML
+  Rendering home/actualité.html.erb within layouts/application
+  Rendered home/actualité.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 69ms (Views: 66.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/..." for 127.0.0.1 at 2019-03-11 16:15:30 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/actualit%C3%A9" for 127.0.0.1 at 2019-03-11 16:16:29 +0100
+Processing by HomeController#actualité as HTML
+  Rendering home/actualité.html.erb within layouts/application
+  Rendered home/actualité.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 55ms (Views: 52.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/..." for 127.0.0.1 at 2019-03-11 16:16:29 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/actualit%C3%A9" for 127.0.0.1 at 2019-03-11 16:18:12 +0100
+Processing by HomeController#actualité as HTML
+  Rendering home/actualité.html.erb within layouts/application
+  Rendered home/actualité.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 52ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/..." for 127.0.0.1 at 2019-03-11 16:18:13 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/actualit%C3%A9" for 127.0.0.1 at 2019-03-11 16:18:51 +0100
+Processing by HomeController#actualité as HTML
+  Rendering home/actualité.html.erb within layouts/application
+  Rendered home/actualité.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 36ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/..." for 127.0.0.1 at 2019-03-11 16:18:51 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/actualit%C3%A9" for 127.0.0.1 at 2019-03-11 16:19:05 +0100
+Processing by HomeController#actualité as HTML
+  Rendering home/actualité.html.erb within layouts/application
+  Rendered home/actualité.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 41ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/..." for 127.0.0.1 at 2019-03-11 16:19:05 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/actualit%C3%A9" for 127.0.0.1 at 2019-03-11 16:19:37 +0100
+Processing by HomeController#actualité as HTML
+  Rendering home/actualité.html.erb within layouts/application
+  Rendered home/actualité.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 38ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/actualit%C3%A9" for 127.0.0.1 at 2019-03-11 16:20:38 +0100
+Processing by HomeController#actualité as HTML
+  Rendering home/actualité.html.erb within layouts/application
+  Rendered home/actualité.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 58ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/actualit%C3%A9" for 127.0.0.1 at 2019-03-11 16:22:16 +0100
+Processing by HomeController#actualité as HTML
+  Rendering home/actualité.html.erb within layouts/application
+  Rendered home/actualité.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 49ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/actualit%C3%A9" for 127.0.0.1 at 2019-03-11 16:22:50 +0100
+Processing by HomeController#actualité as HTML
+  Rendering home/actualité.html.erb within layouts/application
+  Rendered home/actualité.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 40ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/actualit%C3%A9" for 127.0.0.1 at 2019-03-11 16:23:10 +0100
+Processing by HomeController#actualité as HTML
+  Rendering home/actualité.html.erb within layouts/application
+  Rendered home/actualité.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 47ms (Views: 43.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/actualit%C3%A9" for 127.0.0.1 at 2019-03-11 16:24:04 +0100
+Processing by HomeController#actualité as HTML
+  Rendering home/actualité.html.erb within layouts/application
+  Rendered home/actualité.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 39ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/actualit%C3%A9" for 127.0.0.1 at 2019-03-11 16:26:50 +0100
+Processing by HomeController#actualité as HTML
+  Rendering home/actualité.html.erb within layouts/application
+  Rendered home/actualité.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 56ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-11 16:26:59 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pr%C3%A9inscription" for 127.0.0.1 at 2019-03-11 16:29:17 +0100
+Processing by HomeController#préinscription as HTML
+  Rendering home/préinscription.html.erb within layouts/application
+  Rendered home/préinscription.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 72ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films" for 127.0.0.1 at 2019-03-11 16:29:21 +0100
+Processing by HomeController#films as HTML
+  Rendering home/films.html.erb within layouts/application
+  Rendered home/films.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 55ms (Views: 48.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/actualit%C3%A9" for 127.0.0.1 at 2019-03-11 16:29:28 +0100
+Processing by HomeController#actualité as HTML
+  Rendering home/actualité.html.erb within layouts/application
+  Rendered home/actualité.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 61ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact.html" for 127.0.0.1 at 2019-03-11 16:29:36 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/contact.html"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/actualit%C3%A9" for 127.0.0.1 at 2019-03-11 16:29:38 +0100
+Processing by HomeController#actualité as HTML
+  Rendering home/actualité.html.erb within layouts/application
+  Rendered home/actualité.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 45ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/actualit%C3%A9" for 127.0.0.1 at 2019-03-11 16:30:43 +0100
+Processing by HomeController#actualité as HTML
+  Rendering home/actualité.html.erb within layouts/application
+  Rendered home/actualité.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 38ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/actualit%C3%A9" for 127.0.0.1 at 2019-03-11 16:31:09 +0100
+Processing by HomeController#actualité as HTML
+  Rendering home/actualité.html.erb within layouts/application
+  Rendered home/actualité.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 48ms (Views: 45.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/actualit%C3%A9" for 127.0.0.1 at 2019-03-11 16:32:03 +0100
+Processing by HomeController#actualité as HTML
+  Rendering home/actualité.html.erb within layouts/application
+  Rendered home/actualité.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 46ms (Views: 44.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/actualit%C3%A9" for 127.0.0.1 at 2019-03-11 16:34:29 +0100
+Processing by HomeController#actualité as HTML
+  Rendering home/actualité.html.erb within layouts/application
+  Rendered home/actualité.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 82ms (Views: 79.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-11 16:34:35 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 47ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films" for 127.0.0.1 at 2019-03-11 16:34:43 +0100
+Processing by HomeController#films as HTML
+  Rendering home/films.html.erb within layouts/application
+  Rendered home/films.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 40ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pr%C3%A9inscription" for 127.0.0.1 at 2019-03-11 16:34:44 +0100
+Processing by HomeController#préinscription as HTML
+  Rendering home/préinscription.html.erb within layouts/application
+  Rendered home/préinscription.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 64ms (Views: 61.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/actualit%C3%A9" for 127.0.0.1 at 2019-03-11 16:34:46 +0100
+Processing by HomeController#actualité as HTML
+  Rendering home/actualité.html.erb within layouts/application
+  Rendered home/actualité.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_footer.html.erb (1.8ms)
+Completed 200 OK in 65ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/actualit%C3%A9" for 127.0.0.1 at 2019-03-11 16:38:54 +0100
+Processing by HomeController#actualité as HTML
+  Rendering home/actualité.html.erb within layouts/application
+  Rendered home/actualité.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 57ms (Views: 54.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-11 16:38:56 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (4.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 38ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pr%C3%A9inscription" for 127.0.0.1 at 2019-03-11 16:40:43 +0100
+Processing by HomeController#préinscription as HTML
+  Rendering home/préinscription.html.erb within layouts/application
+  Rendered home/préinscription.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 59ms (Views: 56.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/actualit%C3%A9" for 127.0.0.1 at 2019-03-11 16:40:45 +0100
+Processing by HomeController#actualité as HTML
+  Rendering home/actualité.html.erb within layouts/application
+  Rendered home/actualité.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 86ms (Views: 81.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films" for 127.0.0.1 at 2019-03-11 16:40:46 +0100
+Processing by HomeController#films as HTML
+  Rendering home/films.html.erb within layouts/application
+  Rendered home/films.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 38ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pr%C3%A9inscription" for 127.0.0.1 at 2019-03-11 16:41:57 +0100
+Processing by HomeController#préinscription as HTML
+  Rendering home/préinscription.html.erb within layouts/application
+  Rendered home/préinscription.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 60ms (Views: 56.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pr%C3%A9inscription" for 127.0.0.1 at 2019-03-11 16:42:40 +0100
+Processing by HomeController#préinscription as HTML
+  Rendering home/préinscription.html.erb within layouts/application
+  Rendered home/préinscription.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 39ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pr%C3%A9inscription" for 127.0.0.1 at 2019-03-11 16:43:14 +0100
+Processing by HomeController#préinscription as HTML
+  Rendering home/préinscription.html.erb within layouts/application
+  Rendered home/préinscription.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 36ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pr%C3%A9inscription" for 127.0.0.1 at 2019-03-11 16:44:38 +0100
+Processing by HomeController#préinscription as HTML
+  Rendering home/préinscription.html.erb within layouts/application
+  Rendered home/préinscription.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 49ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pr%C3%A9inscription" for 127.0.0.1 at 2019-03-11 16:44:45 +0100
+Processing by HomeController#préinscription as HTML
+  Rendering home/préinscription.html.erb within layouts/application
+  Rendered home/préinscription.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 33ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pr%C3%A9inscription" for 127.0.0.1 at 2019-03-11 16:44:50 +0100
+Processing by HomeController#préinscription as HTML
+  Rendering home/préinscription.html.erb within layouts/application
+  Rendered home/préinscription.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 42ms (Views: 40.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pr%C3%A9inscription" for 127.0.0.1 at 2019-03-11 16:46:29 +0100
+Processing by HomeController#préinscription as HTML
+  Rendering home/préinscription.html.erb within layouts/application
+  Rendered home/préinscription.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 61ms (Views: 59.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pr%C3%A9inscription" for 127.0.0.1 at 2019-03-11 16:46:38 +0100
+Processing by HomeController#préinscription as HTML
+  Rendering home/préinscription.html.erb within layouts/application
+  Rendered home/préinscription.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 69ms (Views: 66.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pr%C3%A9inscription" for 127.0.0.1 at 2019-03-11 16:46:50 +0100
+Processing by HomeController#préinscription as HTML
+  Rendering home/préinscription.html.erb within layouts/application
+  Rendered home/préinscription.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-11 16:46:58 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 35ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films" for 127.0.0.1 at 2019-03-11 16:47:16 +0100
+Processing by HomeController#films as HTML
+  Rendering home/films.html.erb within layouts/application
+  Rendered home/films.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 39ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pr%C3%A9inscription" for 127.0.0.1 at 2019-03-11 16:47:17 +0100
+Processing by HomeController#préinscription as HTML
+  Rendering home/préinscription.html.erb within layouts/application
+  Rendered home/préinscription.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 60ms (Views: 57.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pr%C3%A9inscription" for 127.0.0.1 at 2019-03-11 16:47:28 +0100
+Processing by HomeController#préinscription as HTML
+  Rendering home/préinscription.html.erb within layouts/application
+  Rendered home/préinscription.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 44ms (Views: 42.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pr%C3%A9inscription" for 127.0.0.1 at 2019-03-11 16:47:38 +0100
+Processing by HomeController#préinscription as HTML
+  Rendering home/préinscription.html.erb within layouts/application
+  Rendered home/préinscription.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 39ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pr%C3%A9inscription" for 127.0.0.1 at 2019-03-11 16:48:10 +0100
+Processing by HomeController#préinscription as HTML
+  Rendering home/préinscription.html.erb within layouts/application
+  Rendered home/préinscription.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 34ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-11 16:48:17 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 76ms (Views: 71.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films" for 127.0.0.1 at 2019-03-14 09:14:24 +0100
+Processing by HomeController#films as HTML
+  Rendering home/films.html.erb within layouts/application
+  Rendered home/films.html.erb within layouts/application (29.5ms)
+  Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 163ms (Views: 146.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pr%C3%A9inscription" for 127.0.0.1 at 2019-03-14 09:14:29 +0100
+Processing by HomeController#préinscription as HTML
+  Rendering home/préinscription.html.erb within layouts/application
+  Rendered home/préinscription.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 74ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pr%C3%A9inscription" for 127.0.0.1 at 2019-03-14 09:15:06 +0100
+Processing by HomeController#préinscription as HTML
+  Rendering home/préinscription.html.erb within layouts/application
+  Rendered home/préinscription.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 57ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pr%C3%A9inscription" for 127.0.0.1 at 2019-03-14 09:15:38 +0100
+Processing by HomeController#préinscription as HTML
+  Rendering home/préinscription.html.erb within layouts/application
+  Rendered home/préinscription.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 54ms (Views: 52.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pr%C3%A9inscription" for 127.0.0.1 at 2019-03-14 09:16:00 +0100
+Processing by HomeController#préinscription as HTML
+  Rendering home/préinscription.html.erb within layouts/application
+  Rendered home/préinscription.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 39ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pr%C3%A9inscription" for 127.0.0.1 at 2019-03-14 09:16:14 +0100
+Processing by HomeController#préinscription as HTML
+  Rendering home/préinscription.html.erb within layouts/application
+  Rendered home/préinscription.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 48ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-14 09:16:20 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 42ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-14 09:25:17 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 89ms (Views: 86.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films" for 127.0.0.1 at 2019-03-14 09:25:20 +0100
+Processing by HomeController#films as HTML
+  Rendering home/films.html.erb within layouts/application
+  Rendered home/films.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 81ms (Views: 78.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-14 09:25:24 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 73ms (Views: 69.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-14 09:25:54 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_footer.html.erb (1.4ms)
+Completed 200 OK in 44ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-14 09:26:17 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 41ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-14 09:26:27 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 46ms (Views: 42.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-14 09:26:40 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_footer.html.erb (1.3ms)
+Completed 200 OK in 51ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-14 09:26:43 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 43ms (Views: 41.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-14 09:27:00 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 44ms (Views: 38.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pr%C3%A9inscription" for 127.0.0.1 at 2019-03-14 09:27:01 +0100
+Processing by HomeController#préinscription as HTML
+  Rendering home/préinscription.html.erb within layouts/application
+  Rendered home/préinscription.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 40ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-14 09:27:07 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 61ms (Views: 56.3ms | ActiveRecord: 0.0ms)
+
+

@@ -39,27 +39,7 @@ html{
 .col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
 
 
-/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
-
-@media only screen and (max-width: 480px) {
-	.col {
-		/*margin: 1% 0 1% 0%;*/
-        margin: 0;
-	}
-}
-
-
-.span-2-of-2 {
-	width: 100%;
-}
-
-.span-1-of-2 {
-	width: 49.2%;
-}
-
-.hidden{
-    display:none;
-}
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS
 
 /* ---------------- */
 /* HEADER */
@@ -77,13 +57,14 @@ html{
     background-color:black !important;
     background-position:center;
     background-size:cover;
-    height:30vh;
+    height:35vh;
 }
 
 .main_d{
   padding-top:20vh;
   height:100vh;
   background-color:white;
+    margin-bottom:30vh;
 }
 
 .films-title{
@@ -100,7 +81,7 @@ html{
   padding-top:20vh;
   height:280vh;
   background-color:white;
-  margin-bottom:50px;
+  margin-bottom:30vh;
 }
 
 header{
@@ -509,39 +490,33 @@ footer p{
 
 @media only screen and (max-width:1167px){
 
-    header nav{
-        padding:20px 50px;
-    }
 
-    .main-navToggle{
-        display:flex;
-    }
-
-    .main-nav-open{
-        display:none;
-    }
-
-
-    .main-nav{
-        position:absolute;
-        top:70px;
-        right:0px;
-        width:200px;
-        transition: all 0.3s ease-in-out;
-    }
-
-    .main-nav li {
-        padding-top:20px;
-        padding-left:22px;
-    }
-
-
-    .logo{
-        float:left;
-    }
 
     .mainTextBox {
-    transform:translate(-40%, -50%)
+    transform:translate(-23%, -50%)
     }
 
-}
+
+    .main_d{
+      padding-top:20vh;
+      height:100vh;
+      background-color:white;
+        margin-bottom:30vh;
+    }
+
+    .films-title{
+      color:black;
+      border-bottom:2px solid #ffd700;
+    }
+
+    .card{
+      border-radius:3px;
+      border:2px solid #ffd700;
+    }
+
+    .main_div{
+      padding-top:20vh;
+      height:280vh;
+      background-color:white;
+      margin-bottom:200vh;
+    }}

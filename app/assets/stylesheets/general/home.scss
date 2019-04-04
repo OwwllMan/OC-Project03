@@ -497,6 +497,7 @@ footer p{
     }
 
 
+
     .main_d{
       padding-top:20vh;
       height:100vh;
@@ -520,3 +521,57 @@ footer p{
       background-color:white;
       margin-bottom:250vh;
     }}
+
+
+    @media only screen and (max-width:375px){
+
+
+
+        .mainTextBox {
+        transform:translate(-15%, -10%)
+        }
+
+        h1{
+          font-size:30px;
+        }
+
+        .text-About{
+          font-size:12px;
+        }
+
+        .logo{
+          height:50px;
+          width:auto;
+        }
+
+        .main_div{
+          margin-bottom:2200px !important;
+        }
+
+        .main_d{
+          margin-bottom:600px !important;
+        }
+
+        .main_d{
+          padding-top:20vh;
+          height:100vh;
+          background-color:white;
+            margin-bottom:40vh;
+        }
+
+        .films-title{
+          color:black;
+          border-bottom:2px solid #ffd700;
+        }
+
+        .card{
+          border-radius:3px;
+          border:2px solid #ffd700;
+        }
+
+        .main_div{
+          padding-top:20vh;
+          height:280vh;
+          background-color:white;
+          margin-bottom:250vh;
+        }}

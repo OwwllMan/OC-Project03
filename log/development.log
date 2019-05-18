@@ -7007,3 +7007,37 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 47ms (Views: 43.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-05-18 10:39:12 +0200
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mathieu/.rvm/gems/ruby-2.5.3/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (311.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 401ms (Views: 393.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pr%C3%A9inscription" for 127.0.0.1 at 2019-05-18 10:39:15 +0200
+Processing by HomeController#préinscription as HTML
+  Rendering home/préinscription.html.erb within layouts/application
+  Rendered home/préinscription.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 44ms (Views: 40.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pr%C3%A9inscription" for 127.0.0.1 at 2019-05-18 10:39:26 +0200
+Processing by HomeController#préinscription as HTML
+  Rendering home/préinscription.html.erb within layouts/application
+  Rendered home/préinscription.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 40ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pr%C3%A9inscription" for 127.0.0.1 at 2019-05-18 10:39:46 +0200
+Processing by HomeController#préinscription as HTML
+  Rendering home/préinscription.html.erb within layouts/application
+  Rendered home/préinscription.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+

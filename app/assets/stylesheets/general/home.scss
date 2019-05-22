@@ -529,8 +529,23 @@ footer p{
 
         .mainTextBox{
         width:375px;
+transform: translate(-49%, -41%);        }
+
+
+        .btn-ghost:link, .btn-ghost:visited {
+
+    border: 3px solid #ffd700;
+    margin-bottom: 17px;
+
+}
+
+        h1{
+            font-size: 35px;
         }
 
+        h2{
+            font-size: 28px;
+        }
 
         .text-About{
           font-size:12px;

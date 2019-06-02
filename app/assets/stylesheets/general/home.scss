@@ -526,25 +526,25 @@ footer p{
     @media only screen and (max-width:375px){
 
 section p{
-    font-size:35px;
+    font-size:35px !important;
 }
 
 
 .main-nav li a:link, .main-nav li a:visited {
-   font-size: 30px;
+   font-size: 30px  !important;
 }
 
 
         .mainTextBox{
         width:375px;
-transform: translate(-46%, -50%);        }
+transform: translate(-46%, -50%)  !important;        }
 
 .btn{
-    font-size:3rem;
+    font-size:3rem  !important;
 }
 
 .btn-full{
-    margin-bottom:20px;
+    margin-bottom:20px  !important;
 }
 
         .btn-ghost:link, .btn-ghost:visited {
@@ -555,7 +555,7 @@ transform: translate(-46%, -50%);        }
 }
 
         h1{
-            font-size: 65px;
+            font-size: 65px  !important;
         }
 
         h2{

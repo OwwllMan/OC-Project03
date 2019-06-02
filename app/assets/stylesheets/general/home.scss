@@ -525,46 +525,27 @@ footer p{
 
     @media only screen and (max-width:375px){
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-
-.text-section-1{
-    font-size:40px;
+section p{
+    font-size:35px;
 }
 
-.text-section-2{
-    font-size:40px;
+
+.main-nav li a:link, .main-nav li a:visited {
+   font-size: 30px;
 }
 
-.text-section-3{
-    font-size:40px;
-}
 
-h2{
-    font-size:60px;
-}
-
-.mainTextBox{
-    width:375px;
-    transform: translate(-52%, -48%); 
-}
-
-.btn{
-    font-size:33px;
-}
-
-h1{
-font-size:65px;
-}
-
-.main-nav li a{
-    font-size:30px;
-}
-
-}
         .mainTextBox{
         width:375px;
-transform: translate(-49%, -41%);        }
+transform: translate(-46%, -50%);        }
 
+.btn{
+    font-size:3rem;
+}
+
+.btn-full{
+    margin-bottom:20px;
+}
 
         .btn-ghost:link, .btn-ghost:visited {
 
@@ -574,7 +555,7 @@ transform: translate(-49%, -41%);        }
 }
 
         h1{
-            font-size: 35px;
+            font-size: 65px;
         }
 
         h2{

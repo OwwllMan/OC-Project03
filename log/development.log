@@ -7802,3 +7802,77 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 5325ms (Views: 5323.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-05-27 10:23:21 +0200
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 2555ms (Views: 2552.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-27 10:36:09 +0200
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 48ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-27 10:36:11 +0200
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 37ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-05-27 10:36:12 +0200
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-01 12:23:14 +0200
+  [1m[35m (6.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/mathieu/.rvm/gems/ruby-2.5.3/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3729.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 3891ms (Views: 3856.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-01 12:25:38 +0200
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 102ms (Views: 98.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pr%C3%A9inscription" for 127.0.0.1 at 2019-06-01 12:25:52 +0200
+Processing by HomeController#préinscription as HTML
+  Rendering home/préinscription.html.erb within layouts/application
+  Rendered home/préinscription.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 73ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/films" for 127.0.0.1 at 2019-06-01 12:25:55 +0200
+Processing by HomeController#films as HTML
+  Rendering home/films.html.erb within layouts/application
+  Rendered home/films.html.erb within layouts/application (10.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 60ms (Views: 53.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-01 12:25:59 +0200
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 61ms (Views: 58.2ms | ActiveRecord: 0.0ms)
+
+
